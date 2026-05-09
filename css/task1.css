@@ -1,0 +1,55 @@
+/*! Simple Profile Card */
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    padding: 50px;
+    margin: 50px;
+    width: 200px;
+    border: 2px solid black;
+    box-shadow: 2px 2px 5px black ;
+    background-color:rgb(167, 98, 231);
+    color: white;
+    width: 200px;
+
+}
+
+img{
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 2px solid black;
+   box-shadow: 2px 2px 5px black ;
+    
+}
+
+span{
+    font-weight: bold;
+    color: red;
+     
+}
+.name{
+  font-weight: bold;
+  color: rgb(4, 5, 5);
+}
+button{
+    font-weight: bold;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: 2px solid black;
+    height: 30px;
+    color: white;
+     box-shadow: 2px 2px 5px black ;
+    background-color: coral;
+}
