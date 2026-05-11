@@ -1,0 +1,65 @@
+body{
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+} 
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 20px;
+    justify-content: center;
+    background-color: rgb(254, 220, 197);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+     padding: 50px;
+     justify-content: center;
+     
+     
+}
+
+h1{
+text-align: center;
+margin-bottom: 10px;
+}
+
+input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.form1{
+    display: grid;
+    gap: 10px;
+    
+}
+button{
+    
+    height: 40px;
+    width: 90px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}

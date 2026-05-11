@@ -1,0 +1,22 @@
+*{
+  margin: 20px;
+  padding: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+      height: 100vh;
+      margin: 0;
+}
+
+
+.box{
+  border: 2px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  color: white;
+  
+}

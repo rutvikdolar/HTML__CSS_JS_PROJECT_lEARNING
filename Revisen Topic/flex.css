@@ -1,0 +1,24 @@
+*{
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    /* flex-direction:column; /// boxes vertical  */
+    /* justify-content: center;  Horizontal alignment  */
+    /* justify-content: space-between; space-between equal space */
+    /* justify-content: space-around;  space-around 👉 દરેક item ની આસપાસ space આવે.*/
+    /* justify-content: space-evenly 👉 બધા spaces એકસરખા.; */
+  
+     flex-direction: column; 
+     
+    
+
+}
+.box{
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+   
+}
+
