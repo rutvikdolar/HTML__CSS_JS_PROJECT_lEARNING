@@ -1,0 +1,55 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(233, 240, 255);
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+section {
+    display: grid;
+
+    /* 4 cards in one row */
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 20px;
+    justify-items: center;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6{
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    width: 230px;
+}
+
+h4,h5{
+    display: flex;
+    gap: 50px;
+}
+
+button{
+    height: 35px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: rgb(15, 23, 42);
+    color: white;
+}
